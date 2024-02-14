@@ -132,37 +132,48 @@ img {
  @media (max-width: 768px) {
     .container {
         max-width: 768px;
+        width: 100%;
     }
- }
+}
 
 
- /* small */
- @media (max-width: 480px) {
+/* small */
+@media (max-width: 480px) {
     .container {
         max-width: 480px;
+        width: 100%;
     }
-
+    
     .row {
         flex-wrap: wrap;
+        gap: 30px;
     }
-
+    
     .lessons .col {
         width: 100%;
     }
- }
+}
 
- @media (max-width: 480px) {
+@media (max-width: 480px) {
     .steps .col {
         width: 100%;
     }
- }
+}
 
- @media (max-width: 480px) {
+@media (max-width: 480px) {
     .why-us .col-left {
         width: 100%;
     }
-
+    
     .why-us .col-right {
         width: 100%;
     }
- }
+}
+
+
+/* bonus */
+@media (max-width: 1155px) {
+    .container {
+        width: 100%;
+    }
+}    
